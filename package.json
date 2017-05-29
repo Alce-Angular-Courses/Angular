@@ -1,0 +1,25 @@
+{
+  "name": "angularjs",
+  "version": "1.0.0",
+  "description": "Ejercicios de AngularJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alce65/Angular.git"
+  },
+  "keywords": [
+    "AngularJS"
+  ],
+  "author": "Alejandro Cerezo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alce65/Angular/issues"
+  },
+  "homepage": "https://github.com/alce65/Angular#readme",
+  "dependencies": {
+    "angular": "^1.6.4"
+  }
+}
