@@ -35,9 +35,8 @@
 
 		<p>Hola {{nombre}}</p>
 		<h2>Pensamientos que has tenido</h2>
-		<ul>	
-			<li ng-repeat="pensamiento in aPensamientos track by $index">
-				Tu pensamiento número {{$index + 1}} fue: <q>{{pensamiento}}</q></li>
+		<ul ng-repeat="pensamiento in aPensamientos track by $index">	
+			<li>Tu pensamiento número {{$index + 1}} fue: <q>{{pensamiento}}</q></li>
 		</ul>			
 	</article>
 	<footer>
